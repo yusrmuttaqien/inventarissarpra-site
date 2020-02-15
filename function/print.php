@@ -1,0 +1,77 @@
+<?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+include "../function/secure.php";
+require "../function/functions.php";
+include "../function/g_time.php";
+
+$id = $_GET["no"];
+$detail_q = mysqli_query($conn, "SELECT * FROM pinjam WHERE alasan = '$id' ");
+// ambil data
+$data_q = mysqli_fetch_assoc($detail_q);
+$d_1 = $data_q["nama_inventaris"];
+$d_2 = $data_q["stats"];
+$d_3 = $data_q["jml_barang"];
+$d_4 = $data_q["guru_pendamping"];
+$d_5 = $data_q["jam_pinjam"];
+$d_6 = $data_q["tgl_pinjam"];
+$d_7 = $data_q["jam_kembali"];
+$d_8 = $data_q["tgl_kembali"];
+$d_9 = $data_q["alasan"];
+$d_10 = $data_q["usr-lght"];
+$d_11 = $data_q["kelas"];
+
+// print
+$report = '<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="../img/telkom_logo.png">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="d_p.css">
+    <title>Detail Peminjaman</title>
+</head>
+<body>
+    <!-- Header -->
+<h1>Detail</h1>
+<!-- Card report -->
+<div class="report-card">
+    <div class="img-prof">
+        <h1>Status Peminjaman :</h1>';
+        if($d_2 === "0"){
+            $report .= '<img class="img-admin" src="../img/wit.png">
+                        <b><p>Menunggu Konfirmasi Admin</p></b>';
+        }
+        if($d_2 === "1" && $d_10 === "0"){
+            $report .= '<img class="img-admin" src="../img/red.png">
+                        <b><p>Dipinjam - Belum dikembalikan</p></b>';
+        }
+        if($d_2 === "1" && $d_10 === "1"){
+            $report .= '<img class="img-admin" src="../img/yellow.png">
+                        <b><p>Kembali - Menunggu Konfirmasi</p></b>';
+        }
+        if($d_2 === "2" && $d_10 === "1"){
+            $report .= '<img class="img-admin" src="../img/ok.png">
+                        <b><p>Barang sudah Dikembalikan</p></b>';
+        }
+        // $report .='</div>
+        //             <div class="text_report">
+        //             <b><p>User'; $report .= echo $_SESSION["fl2"]; $report .= '-'; $report .= echo $d_11; $report .= ',</p></b>';
+                    $report .= '<b><p>#1 Inventaris Dipinjam : </b>'; echo $d_1; $report .= '</p>';
+                    $report .= '<b><p>#2 Banyak Inventaris : </b>'; echo $d_3;  $report .= 'Barang</p>';
+                    $report .= '<b><p>#3 Tanggal dan Jam Pinjam : </b>'; echo $d_6; $report .= '- </b>'; echo $d_5; $report .= '</p>';
+                    $report .= '<b><p>#4 Tanggal dan Jam Kembali : </b>'; echo $d_8; $report .= '- </b>'; if($d_7 === "00:00:00"){echo "Belum diset";}else{echo $d_7;} $report .= '</p>';
+                    $report .= '<b><p>#5 Guru Pendamping : </b>'; echo $d_4; $report .= '</p>';
+                    $report .= '<b><p>#6 Alasan : </b>'; echo $d_9; $report .= '</p>';
+                    $report .= '</div>
+                                </div>
+                                </body>
+                                </html>';
+$mpdf = new \Mpdf\Mpdf(['orientation' => 'L']);
+$mpdf->WriteHTML($report);
+$mpdf->Output('Detail.pdf', 'I');
+
+?>

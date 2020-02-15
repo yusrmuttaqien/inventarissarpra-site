@@ -1,0 +1,61 @@
+h1{
+    font-family: 'PT Sans', sans-serif;
+    position: absolute;
+    left: 530px;
+    font-size: 50px;
+    color:whitesmoke;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0,7);
+}
+
+body{
+    background-color: #2c2b2b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.report-card{
+    position: fixed;
+    top: 200px;
+    left: 125px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    width: 1100px;
+    height: 400px;
+  }
+  
+  .text_report p{
+    font-family: 'PT Sans', sans-serif;
+    color: #313030;
+  }
+  
+  .text_report{
+    position: fixed;
+    top: 340px;
+    left: 690px;
+  }
+  
+  .ok-next{
+    background-color: #F3E367;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    line-height: 50%;
+    position: absolute;
+    top: 20px;
+    color: #313030;
+    font-family: 'PT Sans', sans-serif;
+    right: 30px;
+    text-decoration: none;
+  }
+  
+    .img-prof .img-admin{
+        height:200px;
+        width: 200px;
+        position: fixed;
+        top: 300px;
+        left: 270px;
+        padding: 10px;
+        border-radius: 150px;
+    }

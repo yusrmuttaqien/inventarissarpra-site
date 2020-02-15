@@ -1,0 +1,147 @@
+body{
+    /* background-color:rgb(240, 231, 231); */
+    background-color: #2c2b2b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+}
+
+/* Navbar */
+.top-nav{
+  background-color: transparent;
+  padding: 0px;
+  position: -webkit-sticky;
+}
+
+.top-nav img{
+  border-radius: 100px;
+  padding: 0px;
+  margin: 7px;
+  left: 10px;
+  margin-top: 10px;
+  margin-left: 11px;
+  box-shadow: 0 0px 7px 0 rgba(241, 225, 102, 0.767);
+  width: 50px;
+}
+
+.nav-p{
+  position: absolute;
+  top: 1px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 21px;
+  left: 70px;
+  color: rgb(241, 225, 102);
+}
+
+.top-nav a {
+  float: right;
+  margin: 5px;
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgb(241, 225, 102);
+  cursor: default;
+}
+
+.top-nav .btn-2{
+  border-style: solid;
+  border-color: rgb(241, 225, 102);
+  border-width: 1px; 
+  float: right;
+  margin: 5px;
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: default;
+}
+
+.nav-a{
+  position: absolute;
+  right: 9px;
+  top: 4px;
+}
+/* Navbar */
+
+h1{
+  font-family: 'PT Sans', sans-serif;
+  position: fixed;
+  left: 625px;
+  font-size: 50px;
+  color:whitesmoke;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0,7);
+}
+
+.report-card{
+  position: fixed;
+  top: 200px;
+  left: 125px;
+  background-color: rgb(245, 245, 245);;
+  border-radius: 8px;
+  padding: 10px;
+  width: 1100px;
+  height: 400px;
+  box-shadow: 0 0px 3px 0 rgba(0,0,0,0.5);
+}
+
+.report-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.report-card p{
+  font-family: 'PT Sans', sans-serif;
+  color: #313030;
+}
+
+.img-prof h1{
+  font-family: 'PT Sans', sans-serif;
+  color: #313030;
+  font-size: 30px;
+  position: fixed;
+  top: 280px;
+  left: 210px;
+}
+
+.text_report{
+  position: fixed;
+  top: 270px;
+  left: 650px;
+}
+
+.ok-next{
+    background-color: #F3E367;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    line-height: 50%;
+    position: absolute;
+    top: 20px;
+    color: #313030;
+    font-family: 'PT Sans', sans-serif;
+    right: 30px;
+    text-decoration: none;
+  }
+
+  .img-prof .img-admin{
+      width: 120px;
+      position: fixed;
+      top: 360px;
+      left: 210px;
+      border-radius: 100px;
+      box-shadow: 0 0px 7px 0 rgba(241, 225, 102, 0.767);
+  }
+
+  .img-prof p{
+  font-family: 'PT Sans', sans-serif;
+  color: #313030;
+  font-size: 20px;
+  position: fixed;
+  top: 360px;
+  left: 350px;
+  width: 100px;
+  }

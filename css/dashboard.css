@@ -1,0 +1,381 @@
+body{
+  background-color: #2c2b2b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin:0;
+}
+
+/* Navbar */
+.top-nav{
+  background-color: transparent;
+  padding: 0px;
+  position: -webkit-sticky;
+}
+
+.top-nav img{
+  border-radius: 100px;
+  padding: 0px;
+  margin: 7px;
+  left: 10px;
+  margin-top: 10px;
+  margin-left: 11px;
+  box-shadow: 0 0px 7px 0 rgba(241, 225, 102, 0.767);
+  width: 50px;
+}
+
+.nav-p{
+  position: absolute;
+  top: 1px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 21px;
+  left: 70px;
+  color: rgb(241, 225, 102);
+}
+
+.top-nav a {
+  float: right;
+  margin: 5px;
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgb(241, 225, 102);
+  cursor: default;
+}
+
+.top-nav .btn-2{
+  border-style: solid;
+  border-color: rgb(241, 225, 102);
+  border-width: 1px; 
+  float: right;
+  margin: 5px;
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: default;
+}
+
+.nav-a{
+  position: absolute;
+  right: 9px;
+  top: 4px;
+}
+/* Navbar */
+
+.card-pinjam{
+  background-color: rgb(245, 245, 245);
+  position: fixed;
+  margin: 30px;
+  width: 400px;
+  height: 526px;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: 'PT Sans', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(37, 37, 37, 0.356);
+}
+
+.pinjam-card{
+  background-color: rgb(245, 245, 245);
+  position: fixed;
+  left: 490px;
+  margin: 30px;
+  width: 820px;
+  height: 565px;
+  border-radius: 8px;
+  font-family: 'PT Sans', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(37, 37, 37, 0.356);
+}
+
+.card-pinjam h1{
+  position: fixed;
+  color: #2c2b2b;
+  top: 100px;
+  left: 123px;
+}
+
+.card-pinjam input{
+  color: #2c2b2b;
+  position: fixed;
+  background-color: #F3E367;
+  border: 0px;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  width: 280px;
+}
+
+.card-pinjam select{
+  color: #2c2b2b;
+  position: fixed;
+  background-color: #F3E367;
+  border: 0px;
+  outline: none;
+  border-radius: 8px;
+  width: 140px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  top: 288px;
+  left: 115px;
+  text-align-last: center;
+}
+
+.card-pinjam .input-4{
+  color: #2c2b2b;
+  position: fixed;
+  background-color: #F3E367;
+  border: 0px;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  resize: none;
+  width: 280px;
+  height: 100px;
+  top: 343px;
+  left: 115px;
+  overflow: auto;
+}
+::-webkit-input-placeholder {
+  color:    #2c2b2b;
+}
+
+.card-pinjam p{
+  position: fixed;
+  font-size: 20px;
+}
+
+.card-pinjam .notice-hari{
+  color: #2c2b2b;
+  font-size: 13px;
+  position: fixed;
+  top: 287px;
+  left: 270px;
+}
+
+.card-pinjam .confir_inv{
+  font-family: 'PT Sans', sans-serif;
+  color: rgba(235, 0, 0, 0.61);
+  font-style: italic;
+  position: fixed;
+  top: 148px;
+  left: 170px;
+  font-size: 15px;
+}
+
+.card-pinjam .confir_inv_1{
+  font-family: 'PT Sans', sans-serif;
+  color: rgba(235, 0, 0, 0.61);
+  font-style: italic;
+  position: fixed;
+  top: 148px;
+  left: 185px;
+  font-size: 15px;
+}
+
+.card-pinjam .input-2{
+  top: 238px;
+  color: #2c2b2b;
+  outline: none;
+  left: 115px;
+}
+
+.card-pinjam .input-1_1{
+  top: 190px;
+  left: 325px;
+  width: 70px;
+}
+
+.card-pinjam .input-1{
+  top: 190px;
+  left: 115px;
+  width: 200px;
+}
+
+.card-pinjam .no-1{
+  color: #2c2b2b;
+  top: 176px;
+  left: 70px;
+}
+
+.card-pinjam .no-2{
+  color: #2c2b2b;
+  top: 222px;
+  left: 70px;
+}
+
+.card-pinjam .no-3{
+  color: #2c2b2b;
+  top: 275px;
+  left: 70px;
+}
+
+.card-pinjam .no-4{
+  color: #2c2b2b;
+  top: 332px;
+  left: 70px;
+}
+
+.btn-sub{
+      background: url(../img/booking.png);
+      background-color: #F3E367;
+      width: 60px;
+      height: 60px;
+      border: none;
+      background-size: 35px 35px;
+      background-position-x: 13px;
+      background-position-y: 13px;
+      background-repeat: no-repeat;
+      border-radius: 8px;
+      position: fixed;
+      top: 400px;
+      left: 440px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    
+    .invent-card{
+    position: fixed;
+    width: 400px;
+    height: 152px;
+    padding: 0px;
+    left: 52px;
+    top: 490px;
+    border-radius: 0px;
+    margin: 0px;
+    overflow: auto;
+    margin-bottom: 0px;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .invent-card .table-inv{
+    width: 390px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .table-inv th{
+    color: white;
+    background-color: #2C2E31;
+  }
+  
+  .belum-konf{
+    position: fixed;
+    width: 360px;
+    height: 510px;
+    left: 550px;
+    top: 130px;
+    overflow: auto;
+    margin-bottom: 0px;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .belum-konf .table-nkonf{
+    text-align: center;
+    font-size: 12px;
+    width: 360px;
+  }
+
+  .belum-konf .table-nkonf th{
+    color: white;
+    background-color: #2C2E31;
+  }
+  
+  .sdh-konf{
+    position: fixed;
+    width: 360px;
+    height: 510px;
+    right: 60px;
+    top: 130px;
+    overflow: auto;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .sdh-konf .table-nkonf{
+    width: 360px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .sdh-konf .table-nkonf th{
+    color: white;
+    background-color: #2C2E31;
+  }
+  
+  .else-table{
+    text-align: center;
+    top: 100px;
+  text-justify: auto;
+  color: #2c2b2b;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.sdh-konf .notyet{
+  border-color: rgba(255, 0, 0, 0.541);
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+}
+
+.sdh-konf .yet{
+  border-color: rgba(128, 115, 0, 0.541);
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+}
+
+.a_undelete{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #F3E367;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.a_delete{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.a_conf{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 128, 0, 0.541);
+  padding: 3px;
+  border-radius: 4px;
+}
+/* ScrollBar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+      background: #F3E367; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgb(214, 200, 91); 
+      cursor: default;
+    }
+    /* scrollbar */

@@ -1,0 +1,104 @@
+h1{
+    font-family: 'PT Sans', sans-serif;
+    position: absolute;
+    left: 488px;
+    font-size: 50px;
+    color:whitesmoke;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0,7);
+}
+
+body{
+    background-color: #2c2b2b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.change{
+    font-family: 'PT Sans', sans-serif;
+    position: absolute;
+    left: 520px;
+    font-size: 50px;
+    color:whitesmoke;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0,7);
+}
+
+.card-bg input{
+    display: block;
+    background-color: #F3E367;
+    border: 0px;
+    outline: none;
+    border-radius: 8px;
+    margin: 11px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    padding: 10px;
+    width: 300px;
+    height: 30px;
+    color: rgb(49, 49, 49);
+}
+
+.card-bg textarea{
+    display: block;
+    resize: none;
+    background-color: #F3E367;
+    border: 0px;
+    outline: none;
+    border-radius: 8px;
+    margin: 11px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    padding: 50px;
+    width: 220px;
+    height: 30px;
+    color: rgb(49, 49, 49);
+}
+
+::-webkit-input-placeholder {
+    color:    rgb(49, 49, 49);
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+.form-posi{
+    position: absolute;
+    top: 12%;
+    right: 13%;
+}
+
+.card-bg{
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+	padding: 10px;
+	background-color: #ffffff;
+	border-radius: 8px;
+}
+
+.butt-daf{
+    position: absolute;
+    top: 390px;
+    left: 85px;
+}
+
+.button-dft{
+  background-color: #F3E367;
+  border: none;
+  color: rgb(49, 49, 49);
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 8px;
+  outline: none;
+  margin: 10px;
+  cursor: default;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}

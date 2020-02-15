@@ -1,0 +1,78 @@
+body{
+    background-color: #1072A9;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    cursor: default;
+}
+
+.huge{
+    font-family: 'Raleway', sans-serif;
+    font-size: 29px;
+    width: 990px;
+    position: fixed;
+    cursor: default;
+    top: 240px;
+    left: 200px;
+    color: whitesmoke;
+}
+
+.sadboi{
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    position: fixed;
+    cursor: default;
+    top: 60px;
+    left: 200px;
+    font-size: 100px;
+}
+
+.qr-img{
+    background-color: whitesmoke;
+    width: 124.8px;
+    padding: 10px;
+    position: fixed;
+    left: 200px;
+    top: 425px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+    position: fixed;
+    left: 200px;
+    top: 370px;
+}
+
+.info-1{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    cursor: default;
+    top: 415px;
+    left: 355px;
+    width: 500px;
+}
+
+.info-2{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    cursor: default;
+    top: 480px;
+    left: 355px;
+    width: 500px;
+}
+
+.info-3{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    cursor: default;
+    top: 532px;
+    left: 355px;
+}

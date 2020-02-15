@@ -1,0 +1,159 @@
+/* splash screen */
+h1{
+	font-family: 'PT Sans', sans-serif;
+	position: absolute;
+	padding: 30px;
+	margin-left: 450px;
+	color:whitesmoke;
+	font-size: 60px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0,7);
+}
+
+.tgl{
+	font-family: 'PT Sans', sans-serif;
+	position: absolute;
+	padding: 100px;
+	margin-left: 611px;	
+	font-size: 40px;
+	color:whitesmoke;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0,7);
+}
+/* splash screen */
+
+/* navbar */
+.lefty-nav {
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #ffffff;
+	overflow-x: hidden;
+	padding-top: 20px;
+	box-shadow: 0 0px 7px 0 rgba(0,0,0,0.5);
+  }
+  
+	.lefty-nav img{
+	height: 143px;
+	width: 143px;
+	position: fixed;
+	left: 30px;
+	top: 40px;
+	}
+
+	.lefty-nav .butt-space{
+		position: fixed;
+		top: 200px;
+	}
+
+  .lefty-nav a {
+	padding: 20px 8px 20px 16px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #000000;
+	display: block;
+	font-family: 'PT Sans', sans-serif;
+	}
+/* navbar */
+
+  body{
+	  background-color: #2c2b2b;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+  	background-attachment: fixed;
+	}
+	
+	/* table */
+	table{
+		font-size: 12px;
+		font-family: 'PT Sans', sans-serif;
+		text-align: center;
+		margin: 16px;
+		width: 1055px;
+	}
+
+	th{
+		color: white;
+    background-color: #2C2E31;
+	}
+
+	.tb_1{
+		width: 40px;
+	}
+
+	.tb_2{
+		width: 80px;
+	}
+
+	.tb_usr{
+		width: 5px;
+	}
+
+	.tb_3{
+		width: 100px;
+	}
+
+
+	.card-table a{
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		background-color: #F3E367;
+		padding: 3px;
+		border-radius: 4px;
+	}
+
+	.card-table .a_delete{
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		background-color: rgb(255, 0, 0);
+		padding: 3px;
+		border-radius: 4px;
+	}
+
+	.card-table .a_conf{
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		background-color: rgba(0, 128, 0, 0.541);
+		padding: 3px;
+		border-radius: 4px;
+	}
+	/* table */
+
+  .card-table {
+		width: 1090px;
+		height: 350px;
+		position: absolute;
+		top: 300px;
+  	right: 30px;
+		background-color: #ffffff;
+		border-radius: 8px;
+		margin-bottom: 10px;
+	}
+
+	.no_data{
+		position: fixed;
+		top: 250px;
+		left: 560px;
+		width: 400px;
+	}
+
+  .jum-total{
+	font-family: 'PT Sans', sans-serif;
+	position: absolute;
+	top: 240px;
+	right: 820px;
+	font-size: 20px;
+	color:whitesmoke;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0,7);
+	}
+	
+	.jum-total-non{
+	font-family: 'PT Sans', sans-serif;
+	position: absolute;
+	top: 259px;
+	right: 988px;
+	font-size: 20px;
+	color:whitesmoke;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0,7);
+	}

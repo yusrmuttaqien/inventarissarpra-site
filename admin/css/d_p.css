@@ -1,0 +1,83 @@
+h1{
+  font-family: 'PT Sans', sans-serif;
+  position: fixed;
+  left: 625px;
+  top: 50px;
+  font-size: 50px;
+  color:whitesmoke;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0,7);
+}
+
+body{
+  /* background-color:rgb(240, 231, 231); */
+    background-color: #2c2b2b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+}
+
+.report-card{
+  position: fixed;
+  top: 200px;
+  left: 125px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  width: 1100px;
+  height: 400px;
+}
+
+.report-card p{
+  font-family: 'PT Sans', sans-serif;
+  color: #313030;
+}
+
+.img-prof h1{
+  font-family: 'PT Sans', sans-serif;
+  color: #313030;
+  font-size: 30px;
+  position: fixed;
+  top: 280px;
+  left: 210px;
+}
+
+.text_report{
+  position: fixed;
+  top: 270px;
+  left: 650px;
+}
+
+.ok-next{
+    background-color: #F3E367;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    line-height: 50%;
+    position: absolute;
+    top: 20px;
+    color: #313030;
+    font-family: 'PT Sans', sans-serif;
+    right: 30px;
+    text-decoration: none;
+  }
+
+  .img-prof .img-admin{
+      height:100px;
+      width: 100px;
+      position: fixed;
+      top: 360px;
+      left: 210px;
+      padding: 10px;
+      border-radius: 100px;
+  }
+
+  .img-prof p{
+  font-family: 'PT Sans', sans-serif;
+  color: #313030;
+  font-size: 20px;
+  position: fixed;
+  top: 360px;
+  left: 350px;
+  width: 100px;
+  }
