@@ -1,4 +1,4 @@
---- Tugas Ujian Kenaikan Level Rekayasa Perangkat Lunak Kelas X ---
+# Tugas Ujian Kenaikan Level Rekayasa Perangkat Lunak Kelas X
 --- Oleh Yusril Dhiyaul Haq Muttaqien XRPL1 ---
 
 --- Cara Penggunaan ---
@@ -14,9 +14,5 @@
 	Password : dev
 	(atau buat user di admin)
 
---------------------------
-Terimakasih, pak
---------------------------
-//css masih belum responsive, tampilan web optimal di resolusi 1366x768 (lupa ubah resolusinya pak)
 --------------------------
 --- Senin, 13 Mei 2019 ---
